@@ -1,8 +1,6 @@
 <?php
 require 'config.php';
 
-//For running the application "http://localhost/TODO_APP/"
-
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $username = $_POST['username'];
     $password = $_POST['password'];
